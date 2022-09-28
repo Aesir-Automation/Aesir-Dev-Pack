@@ -39,4 +39,4 @@ jobs:
           # Pattern the commit message must match to mark the release as a prerelease
           prerelease-regex: "/^Beta Release: #{semver}$/i"
         env:
-          GITHUB_TOKEN: ${{ secret.TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
