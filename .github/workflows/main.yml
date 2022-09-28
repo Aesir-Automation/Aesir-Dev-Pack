@@ -40,4 +40,4 @@ jobs:
           prerelease-regex: "/^Beta Release: #{semver}$/i"
           
         env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+          GITHUB_TOKEN: ${{ Prod.TOKEN }}
