@@ -1,5 +1,9 @@
 # Dev Pack Change Log
 
+## v1.0.4
+
+- Testing Actions flow
+
 ## v1.0.3
 
 - Added option to ignore tanks for FriendlyUnitsAverageHealth method
