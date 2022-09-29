@@ -1,5 +1,10 @@
 # Dev Pack Change Log
 
+## v1.0.3
+
+- Added option to ignore tanks for FriendlyUnitsAverageHealth method
+	- Using this option will prevent AOE rotations from firing just because the tank is low on health and bringing down the average
+
 ## v1.0.2
 
 - New override method for creating custom macros
