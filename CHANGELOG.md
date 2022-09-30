@@ -1,5 +1,9 @@
 # Dev Pack Change Log
 
+## v1.0.5
+
+- Added ignore casting option to Cast method
+
 ## v1.0.4
 
 - Testing Actions flow
