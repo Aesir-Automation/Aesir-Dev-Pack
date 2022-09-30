@@ -24,20 +24,12 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-
-      # You may pin to the exact commit or the version.
-      # uses: marvinpinto/action-automatic-releases@919008cf3f741b179569b7a6fb4d8860689ab7f0
-      - uses: marvinpinto/action-automatic-releases@v1.2.1
+      
+      - uses: CupOfTea696/gh-action-auto-release@v1.0.0
         with:
-          # GitHub secret token
-          repo_token: ${{ secrets.TOKEN }}
-          # Git tag (for automatic releases)
-          automatic_release_tag: "latest"
-          # Should this release be marked as a draft?
+          title: "Release: $version"
+          tag: "v$semver"
           draft: false
-          # Should this release be marked as a pre-release?
-          prerelease: false
-          # Release title (for automatic releases)
-          title: DevPack
-          # Assets to upload to the release
-          files: ""
+          regex: "/^Release: #{semver}$/i"
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
