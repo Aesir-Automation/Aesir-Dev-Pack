@@ -25,7 +25,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
       
-      - uses: CupOfTea696/gh-action-auto-release@v1.0.0
+      - uses: CupOfTea696/gh-action-auto-release@v1.0.2
         with:
           title: "Release: $version"
           tag: "v$semver"
