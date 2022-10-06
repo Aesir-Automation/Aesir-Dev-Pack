@@ -30,12 +30,24 @@ public class Template : Simulation
         // Monitors gameplay for new game spells to add to the database for future use
         Config.SpellCollectionMode = true;
     }
-    public override void CombatAction()
-    {
 
-    }
-    public override void OutOfCombatAction()
+    public override void MacroCreation()
     {
-
+        // Create all special macros here!
+        /* Example
+         * 
+         * CreateManualMacro("player", "WWMH", $"/cast [@none] {WindfuryWeapon?.LocalizedName}" + "\\n/use 16");
+         * 
+         */
     }
+
+public override void CombatAction()
+{
+
+}
+
+public override void OutOfCombatAction()
+{
+
+}
 }
