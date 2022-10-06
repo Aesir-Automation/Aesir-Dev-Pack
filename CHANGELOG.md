@@ -1,6 +1,6 @@
 # Dev Pack Change Log
 
-## v1.1.4
+## v1.1.5
 
-- Standardized versions to match Bifrost
-- Added IsHorde and IsAlliance to Unit classs
+- Added UseCooldowns to API
+- Fixed bug with ComboPoints, SoulShards, and Chi
