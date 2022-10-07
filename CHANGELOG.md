@@ -1,5 +1,5 @@
 # Dev Pack Change Log
 
-## v1.1.6
+## v1.1.7
 
-- Updated Template
+- Added IsKnown to spell objects
