@@ -1,5 +1,5 @@
 # Dev Pack Change Log
 
-## v1.1.7
+## v1.1.8
 
-- Added IsKnown to spell objects
+- Added Essence to Player
