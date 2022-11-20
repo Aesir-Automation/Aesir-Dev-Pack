@@ -1,5 +1,5 @@
 # Dev Pack Change Log
 
-## v1.1.8
+## v1.1.9
 
-- Added Essence to Player
+- Added PoisonedFriendly, DiseasedFriendly, CursedFriendly, MagicedFriendly for dispel targets
