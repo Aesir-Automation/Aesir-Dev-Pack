@@ -1,5 +1,5 @@
 # Dev Pack Change Log
 
-## v1.1.11
+## v1.3.8
 
-- Added Unit.Item(int id) and Unit.Totem(int id)
+- Added IsEmpowering, EmpoweredLevel, and MaxEmpoweredLevel to Unit scope (works for player only)
