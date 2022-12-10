@@ -1,11 +1,8 @@
 # Dev Pack Change Log
 
-## v1.4.0
+## v1.5.0
 
-- Added IsEmpowering, EmpoweredLevel, and MaxEmpoweredLevel to Unit scope (works for player only)
-- Added new rotation namespace
-- Added rotation messaging system
-  - `void InfoLog(string message);`
-  - `void SuccessLog(string message);`
-  - `void WarningLog(string message);`
-  - `void ErrorLog(string message);`
+- Added Toggle(string name) for toggles that are rotation toggleable
+- Added MountedAction() to separate out mounted ticks
+  - Auto-dismount will only occur if the user has AutoStart turned on
+- Non-breaking change to CreateManualMacro(string name, string macroText) to remove target since it is unused
