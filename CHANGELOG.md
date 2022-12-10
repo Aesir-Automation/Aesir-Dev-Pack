@@ -1,8 +1,6 @@
 # Dev Pack Change Log
 
-## v1.5.0
+## v1.5.1
 
-- Added Toggle(string name) for toggles that are rotation toggleable
-- Added MountedAction() to separate out mounted ticks
-  - Auto-dismount will only occur if the user has AutoStart turned on
-- Non-breaking change to CreateManualMacro(string name, string macroText) to remove target since it is unused
+- Added logFailReason to Cast() for more advanced debugging.
+  - Warning! This will fill up your log output if not used sparingly! Do not ship code with this turned on to anything other than Dev branch!
